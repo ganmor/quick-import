@@ -57,7 +57,7 @@ define(function (require, exports, module) {
     // --------------------------------------------------------------------------------------------
     // Code generation & insertion
     
-    var REQUIRE_ROOT = "/src/";
+    var REQUIRE_ROOT = "/webContent/";
     var EXTENSIONS_ROOT = "extensions/";  // atop REQUIRE_ROOT
 
     function stripPrefix(str, prefix, allowMoreToLeft) {
